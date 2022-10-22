@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/css/images/asfalt-dark.png), url(/css/images/backgroundColor.jpg);
+    background-repeat: repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-attachment: fixed;
+    overflow-y: scroll;
+  
+
+  }
+
+h1, h5, p {
+  font-family: 'Nunito', sans-serif;
+
+}
+
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+
+
+
+
+.myTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+} 
+
+#profile-tab-pane {
+    display: flex;
+    border: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: silver;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-header.border-0 {
+  display: flex;
+  background-color: (195, 201, 216);
+
+
+}
+
+.card-block.px-2 {
+  
+  background-color: whitesmoke;
+  text-align: center;
+  
+  
+}
+
+.person {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  
+  
+}
+
+.firstText {
+  margin: -10px;
+  margin-top: 20px;
+}
+
+#nameHolder {
+  font-size: 60px;
+}
+
+#roleHolder {
+  font-size: 35px;
+}
+
+#subHolder {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#home-tab {
+  color: rgb(195, 201, 216);
+}
+
+#profile-tab {
+  color: rgb(195, 201, 216);
+}
+
+#contact-tab {
+  color: rgb(195, 201, 216);
+}
+
+.card-img-top {
+    min-height: 15rem;
+    max-height: 15rem;
+    min-width: 20rem;
+    max-width: 20rem;
+}
+
+.card.flex-row.flex-wrap {
+  border: 2px solid gray;
+  box-shadow: 2px 2px 10px black;
+}
+
+.card {
+  margin:5px;
+  box-shadow: 2px 2px 10px black;
+}
+
+
+
+
+
+.nav-item {
+    background-color: none;
+    outline: none;
+    font-size: 50px;
+}
+
+.nav.nav-pills.mb-3 {
+    background-color: none;
+    color: none;
+}
+
+
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 100px; */
+    font-size: 100px;
+    margin-top: 70px;
+  }
+
+.fa {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px slategrey;
+  }
+
+  .fa-linkedin:hover {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    text-shadow: 3px 3px 3px white;
+    transform: translate3d(0, -2px, 0);
+  }
+
+  .fa-github:hover {
+    text-decoration: none;
+    color: rgb(246, 248, 251);
+    text-shadow: 3px 3px 3px black;
+    transform: translate3d(0, -2px, 0);
+  }
+
+ 
+
+  .fa-envelope {
+    outline: none;
+    color:black;
+    background-color: black;
+
+  }
+
+
+
+
+ footer {
+    font-size: 30px;
+    color: lightgrey;
+    padding: 10px;
+    bottom: 0vh;
+    width: 100%;
+    height: 2.5rem; 
+ }
+
+ 
+
+
+
