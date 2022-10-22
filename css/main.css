@@ -33,8 +33,10 @@ h1, h5, p {
 .holder {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
+    
   } 
 
 
@@ -42,17 +44,18 @@ h1, h5, p {
 
 .myTab {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    
   
   }
 
 .tab-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 50px;
+    margin: 20px;
     
     
 } 
@@ -65,6 +68,33 @@ h1, h5, p {
     background-color: silver;
     margin: 20px;
     padding: 20px;
+}
+
+#contactCard {
+  font-family: 'Nunito', sans-serif;
+  border: 2px solid black;
+  box-shadow: 2px 2px 10px black;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+#contact-header {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  box-shadow: 2px 2px 10px black;
+}
+
+#contact-tab-pane {
+  display: flex;
+  align-items: flex;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+  color:black;
+  text-decoration: none;
+  bottom: 400px;
+  
+
 }
 
 .card-header.border-0 {
